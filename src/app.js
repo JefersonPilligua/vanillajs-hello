@@ -1,9 +1,5 @@
 /* eslint-disable */
-import "bootstrap";
 import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
@@ -23,6 +19,6 @@ window.onload = function() {
   let tercero = Math.floor(Math.random() * what.length);
   let cuarto = Math.floor(Math.random() * when.length);
 
-  document.querySelector("#excuse").innerHTML =
+  document.querySelector("#g-excuse").innerHTML =
     who[primero] + action[segundo] + what[tercero] + when[cuarto];
 };
